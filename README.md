@@ -18,9 +18,9 @@ Pushsafer make it easy and safe to get push-notifications in real time on your
 	
 ### Install
 
-Download and unzip the file. Copy the content of the folder for example with Winscp to 
+Download and copy the files for example with Winscp to 
 ```javascript
-/opt/z-way-server/automation/userModules/NotificationPushover
+/opt/z-way-server/automation/userModules/NotificationPushsafer
 ```
 
 After that check the access rightsof the folder userModules
