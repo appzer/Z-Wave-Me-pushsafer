@@ -1,0 +1,16 @@
+{
+	"m_title":"Pushsafer.com - Push-Notifications to iOS, Android and Windows 10 devices",
+	"m_descr":"Mit Hilfe eines Nutzerkontos und einen Privaten Schlüssel von Pushsafer.com können Benachrichtigungen über Ereignisse im Gateway per Pushsafer versendet werden. Die Push Nachricht kann individuell angepasst werden (Titel, nachricht, Icon, Sound, Vibration, Zielgerät), bitte die API Beschreibung unter https://www.pushsafer.com/en/pushapi beachten",
+	"l_message":"Message:",
+	"l_message_title":"Title of message",
+	"l_dest_device":"Device(s):",
+	"h_dest_device":"Device ID or Device Group ID, if a messge shpuld send to a specified device or device group. EMPTY or a = all Devices",
+	"l_private_key_token":"Private Key",
+	"h_private_key_token":"Private Key from your Pushsafer.com account.",
+	"l_sound":"Sound:",
+	"h_sound":"EMPTY=Device default or a number 0-28",
+	"l_icon":"Icon:",
+	"h_icon":"Default = 1 or a number 1-98",
+	"l_vibration":"Vibration:",
+	"h_sound":"EMPTY=Device default or a number 1-3 (only iOS & Android)"
+}
