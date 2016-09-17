@@ -23,7 +23,7 @@ Download and copy the files for example with Winscp to
 /opt/z-way-server/automation/userModules/NotificationPushsafer
 ```
 
-After that check the access rightsof the folder userModules
+After that check the access rights of the folder userModules
 ```javascript
 ls -l /opt/z-way-server/automation/
 ```
