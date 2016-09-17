@@ -18,12 +18,12 @@ Pushsafer make it easy and safe to get push-notifications in real time on your
 	
 ### Install
 
-Download and copy the files for example with Winscp to 
+Download and copy the files to 
 ```javascript
 /opt/z-way-server/automation/userModules/NotificationPushsafer
 ```
 
-After that check the access rights of the folder userModules
+check the access rights of the folder userModules
 ```javascript
 ls -l /opt/z-way-server/automation/
 ```
@@ -32,14 +32,14 @@ If you get
 ```javascript
 drwxr-xr-x 12 pi pi  4096 Jan  6 15:56 userModules
 ```
-then everything is OK
+everything is OK
 
 If not run the following command
 ```javascript
 sudo chown -R pi:pi /opt/z-way-server/automation/userModules
 ```
 
-Now restart the z-way server, after that the module should be available
+Now restart the z-way server, then the module should be available
 ```javascript
 sudo service z-way-server restart
 ```
