@@ -14,6 +14,8 @@ Pushsafer make it easy and safe to get push-notifications in real time on your
 
 	git:github.com/appzer/Z-Wave-Me-pushsafer.git
 	
+	https://github.com/appzer/Z-Wave-Me-pushsafer
+	
 ### Install
 
 Download and unzip the file. Copy the content of the folder for example with Winscp to 
