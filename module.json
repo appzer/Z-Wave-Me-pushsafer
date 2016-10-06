@@ -21,7 +21,7 @@
 		"private_key_token": "",
 		"sound" : "",
 		"icon" : "",
-		"vibration" : "",
+		"vibration" : ""
 	},
 	"schema": {
 		"type": "object",
@@ -87,7 +87,7 @@
 			"vibration": {
                 "label": "__l_vibration__",
 				"helper": "__h_vibration__"
-            },			
+            }			
 		}
 	}
 }
