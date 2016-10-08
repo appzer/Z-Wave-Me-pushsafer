@@ -5,8 +5,8 @@
 	"author": "Z-Wave.Me",
 	"homepage": "http://razberry.z-wave.me",
 	"icon": "icon.png",
-    "moduleName":"NotificationPushsafer",
-	"version": "1.0.0",
+	"moduleName":"NotificationPushsafer",
+	"version": "1.0.1",
 	"maturity": "stable",
 	"repository": {
 		"type": "git",
@@ -21,42 +21,52 @@
 		"private_key_token": "",
 		"sound" : "",
 		"icon" : "",
-		"vibration" : ""
+		"vibration" : "",
+		"url" : "",
+		"urltitle" : ""
 	},
 	"schema": {
 		"type": "object",
 		"properties": {
 			"message_title": {
 				"type": "string",
-                "required": false
+				"required": false
 			},
 			"message": {
-                "type": "string",
+				"type": "string",
 				"required": true
-            },
+			},
 			"device": {
-                "type": "string",
+				"type": "string",
 				"required": false
-            },
-            "private_key_token": {
-                "required": true,
-                "pattern": "[a-zA-Z0-9]{20}"
-            },
+			},
+			"private_key_token": {
+				"required": true,
+				"pattern": "[a-zA-Z0-9]{20}"
+			},
 			"sound": {
-                "type": "string",
+				"type": "string",
 				"required": false,
 				"pattern": "[0-9]{2}"
-            },
+			},
 			"icon": {
-                "type": "string",
+				"type": "string",
 				"required": false,
 				"pattern": "[0-9]{2}"
-            },	
+			},
 			"vibration": {
-                "type": "string",
+				"type": "string",
 				"required": false,
 				"pattern": "[0-9]{1}"
-            }
+			},
+			"url": {
+				"type": "string",
+				"required": false
+			},
+			"urltitle": {
+				"type": "string",
+				"required": false
+			}
 		},
 		"required": false
 	},
@@ -66,28 +76,36 @@
 				"label": "__l_message_title__"
 			},
 			"message": {
-                "label": "__l_message__"
-            },
+				"label": "__l_message__"
+			},
 			"device": {
-                "label": "__l_device__",
+				"label": "__l_device__",
 				"helper": "__h_device__"
-            },
-            "private_key_token": {
-                "label": "__l_private_key_token__",
+			},
+			"private_key_token": {
+				"label": "__l_private_key_token__",
 				"helper": "__h_private_key_token__"
-            },
+			},
 			"sound": {
-                "label": "__l_sound__",
+				"label": "__l_sound__",
 				"helper": "__h_sound__"
-            },
+			},
 			"icon": {
-                "label": "__l_icon__",
+				"label": "__l_icon__",
 				"helper": "__h_icon__"
-            },
+			},
 			"vibration": {
-                "label": "__l_vibration__",
+				"label": "__l_vibration__",
 				"helper": "__h_vibration__"
-            }			
+			},
+			"url": {
+				"label": "__l_url__",
+				"helper": "__h_url__"
+			},
+			"urltitle": {
+				"label": "__l_urltitle__",
+				"helper": "__h_urltitle__"
+			}
 		}
 	}
 }
