@@ -50,12 +50,14 @@ NotificationPushsafer.prototype.init = function (config) {
                     url: "https://www.pushsafer.com/api",
                     data: {
                         k: self.config.private_key_token,
-						m: self.config.message,
-						t: self.config.message_title,
-						d: self.config.device,
-						i: self.config.icon,
-						s: self.config.sound,
-						v: self.config.vibration
+			m: self.config.message,
+			t: self.config.message_title,
+			d: self.config.device,
+			i: self.config.icon,
+			s: self.config.sound,
+			v: self.config.vibration,
+			u: self.config.url,
+			ut: self.config.urltitle
                     }
                 });
             }
