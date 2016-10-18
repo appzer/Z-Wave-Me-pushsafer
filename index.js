@@ -1,6 +1,6 @@
 /*** NotificationPushsafer Z-Way HA module *******************************************
 
-Version: 1.0.0
+Version: 1.0.2
 (c) 2016 Appzer.de
 -----------------------------------------------------------------------------
 Author: Kevin Siml
@@ -57,7 +57,8 @@ NotificationPushsafer.prototype.init = function (config) {
 			s: self.config.sound,
 			v: self.config.vibration,
 			u: self.config.url,
-			ut: self.config.urltitle
+			ut: self.config.urltitle,
+			l: self.config.time2live
                     }
                 });
             }
