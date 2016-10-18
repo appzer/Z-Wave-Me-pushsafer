@@ -16,5 +16,7 @@
 	"l_url":"Link URL:",
 	"h_url":"optional, sende eine URL mit der Nachricht",
 	"l_urltitle":"Link URL Titel:",
-	"h_urltitle":"optional der Titel der URL"
+	"h_urltitle":"optional der Titel der URL",
+	"l_time2live":"Time to Live:",
+	"h_time2live":"optional Ganzzahl 0-43200: Zeit in Minuten, nach der die Nachricht automatisch gelöscht wird. 0 oder leer = nicht automatisch löschen"
 }
