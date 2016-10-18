@@ -6,7 +6,7 @@
 	"homepage": "http://razberry.z-wave.me",
 	"icon": "icon.png",
 	"moduleName":"NotificationPushsafer",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"maturity": "stable",
 	"repository": {
 		"type": "git",
@@ -23,7 +23,8 @@
 		"icon" : "",
 		"vibration" : "",
 		"url" : "",
-		"urltitle" : ""
+		"urltitle" : "",
+		"time2live" : ""
 	},
 	"schema": {
 		"type": "object",
@@ -66,7 +67,12 @@
 			"urltitle": {
 				"type": "string",
 				"required": false
-			}
+			},
+			"time2live": {
+				"type": "string",
+				"required": false,
+				"pattern": "[0-9]{5}"
+			}		
 		},
 		"required": false
 	},
@@ -105,6 +111,10 @@
 			"urltitle": {
 				"label": "__l_urltitle__",
 				"helper": "__h_urltitle__"
+			},
+			"time2live": {
+				"label": "__l_time2live__",
+				"helper": "__h_time2live__"
 			}
 		}
 	}
