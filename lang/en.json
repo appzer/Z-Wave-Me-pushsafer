@@ -11,6 +11,8 @@
 	"h_sound":"EMPTY=Device default or a number 0-28",
 	"l_icon":"Icon:",
 	"h_icon":"Default = 1 or a number 1-98",
+	"l_iconcolor":"Icon Color:",
+	"h_iconcolor":"Default = empty or a hexadeciaml color code e.g. #FF0000",
 	"l_vibration":"Vibration:",
 	"h_vibration":"EMPTY=Device default or a number 1-3 (only iOS & Android)",
 	"l_vibration":"Vibration:",
