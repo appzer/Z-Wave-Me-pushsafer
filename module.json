@@ -21,6 +21,7 @@
 		"private_key_token": "",
 		"sound" : "",
 		"icon" : "",
+		"iconcolor" : "",
 		"vibration" : "",
 		"url" : "",
 		"urltitle" : "",
@@ -55,6 +56,10 @@
 				"required": false,
 				"pattern": "[0-9]{2}"
 			},
+			"iconcolor": {
+				"type": "string",
+				"required": false
+			},			
 			"vibration": {
 				"type": "string",
 				"required": false,
@@ -100,6 +105,10 @@
 				"label": "__l_icon__",
 				"helper": "__h_icon__"
 			},
+			"iconcolor": {
+				"label": "__l_iconcolor__",
+				"helper": "__h_iconcolor__"
+			},			
 			"vibration": {
 				"label": "__l_vibration__",
 				"helper": "__h_vibration__"
