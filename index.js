@@ -1,4 +1,4 @@
-/*** NotificationPushsafer Z-Way HA module *******************************************
+/*** Z-Wave-Me-pushsafer Z-Way HA module *******************************************
 
 Version: 1.0.3
 (c) 2017 Appzer.de
