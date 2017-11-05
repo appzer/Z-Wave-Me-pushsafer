@@ -11,6 +11,8 @@
 	"h_sound":"LEER=Gerätestandard oder eine Nummer 0-28",
 	"l_icon":"Icon:",
 	"h_icon":"Standard = 1 oder eine Nummer 1-98",
+	"l_iconcolor":"Icon Color:",
+	"h_iconcolor":"Standard = empty oder ein Hexadezimaler Farbcode z.B. #FF0000",
 	"l_vibration":"Vibration:",
 	"h_vibration":"LEER=Gerätestandard oder eine Nummer 1-3 (nur iOS & Android)",
 	"l_url":"Link URL:",
