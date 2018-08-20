@@ -21,7 +21,7 @@
 	"h_urltitle":"optional der Titel der URL",
 	"l_time2live":"Time to Live:",
 	"h_time2live":"optional Ganzzahl 0-43200: Zeit in Minuten, nach der die Nachricht automatisch gelöscht wird. 0 oder leer = nicht automatisch löschen",
-	"l_priority":"Priority:",
+	"l_priority":"Priorität:",
 	"h_priority":"optional Ganzzahl -2, -1, 0, 1, 2",
 	"l_retry":"Erneut senden:",
 	"h_retry":"optional Ganzzahl 60-10800: Zeit in Sekunden, nach dem die Nachricht erneut gesendet werden soll",
