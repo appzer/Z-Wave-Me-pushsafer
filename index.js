@@ -59,7 +59,11 @@ NotificationPushsafer.prototype.init = function (config) {
 			v: self.config.vibration,
 			u: self.config.url,
 			ut: self.config.urltitle,
-			l: self.config.time2live
+			l: self.config.time2live,
+			pr: self.config.priority,
+			re: self.config.retry,
+			ex: self.config.expire,
+			a: self.config.answer
                     }
                 });
             }
