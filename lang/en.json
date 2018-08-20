@@ -22,5 +22,13 @@
 	"l_urltitle":"Link URL Title:",
 	"h_urltitle":"optional the urls title",
 	"l_time2live":"Time to Live:",
-	"h_time2live":"Integer number 0-43200: Time in minutes, after which message automatically gets purged. 0 or empty = do not automatically delete"
+	"h_time2live":"Integer number 0-43200: Time in minutes, after which message automatically gets purged. 0 or empty = do not automatically delete",
+	"l_priority":"Priority:",
+	"h_priority":"optional number -2, -1, 0, 1, 2",
+	"l_retry":"Retry:",
+	"h_retry":"optional number 60-10800: time in seconds, to send the message again",
+	"l_expire":"Expire:",
+	"h_expire":"optional number 60-10800: time in secondes, to cancel the retry",
+	"l_answer":"Answer:",
+	"h_answer":"optional number 1 = Answer possible or 0 = Answer not possible"
 }
