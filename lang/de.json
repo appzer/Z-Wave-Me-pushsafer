@@ -27,6 +27,12 @@
 	"h_retry":"optional Ganzzahl 60-10800: Zeit in Sekunden, nach dem die Nachricht erneut gesendet werden soll",
 	"l_expire":"Verfall:",
 	"h_expire":"optional Ganzzahl 60-10800: Zeit in Sekunden, nach dem das erneute Senden abbrechen soll",
+	"l_confirm":"Bestätigen:",
+	"h_confirm":"optional Ganzzahl 10-10800: Zeit in Sekunden, nach dem die Nachricht erneut gesendet werden soll bis diese bestätigt wurde",
 	"l_answer":"Antwort:",
-	"h_answer":"optional Ganzzahl 1 = Antwort möglich oder 0 Antwort nicht möglich"
+	"h_answer":"optional Ganzzahl 1 = Antwort möglich oder 0 Antwort nicht möglich",
+	"l_answeroptions":"Antwort Optionen:",
+	"h_answeroptions":"optional vordefinierte Antwortmöglichkeiten getrennt mit einem Pipe-Zeichen z.B. Ja|Nein|Vielleicht",
+	"l_answerforce":"Antwort erzwingen:",
+	"h_answerforce":"optional Ganzzahl 1 = Antwort erzwingen oder 0 Antwort nicht erzwingen"
 }
