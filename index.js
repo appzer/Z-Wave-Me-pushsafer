@@ -1,7 +1,7 @@
 /*** Z-Wave-Me-pushsafer Z-Way HA module *******************************************
 
-Version: 1.0.3
-(c) 2017 Appzer.de
+Version: 1.0.5
+(c) 2023 Appzer.de
 -----------------------------------------------------------------------------
 Author: Kevin Siml
 Description: Send Push Notification by Pushsaver.com Service
@@ -63,7 +63,10 @@ NotificationPushsafer.prototype.init = function (config) {
 			pr: self.config.priority,
 			re: self.config.retry,
 			ex: self.config.expire,
-			a: self.config.answer
+			cr: self.config.confirm,
+			a: self.config.answer,
+			ao: self.config.answeroptions,
+			af: self.config.answerforce
                     }
                 });
             }
