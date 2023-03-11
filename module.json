@@ -6,7 +6,7 @@
 	"homepage": "http://razberry.z-wave.me",
 	"icon": "icon.png",
 	"moduleName":"z-wave-me-pushsafer",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"maturity": "stable",
 	"repository": {
 		"type": "git",
@@ -29,7 +29,10 @@
 		"priority" : "",
 		"retry" : "",
 		"expire" : "",
-		"answer" : ""
+		"confirm" : "",
+		"answer" : "",
+		"answeroptions" : "",
+		"answerforce" : ""
 	},
 	"schema": {
 		"type": "object",
@@ -97,7 +100,21 @@
 				"required": false,
 				"pattern": "[0-9]{5}"
 			},
+			"confirm": {
+				"type": "string",
+				"required": false,
+				"pattern": "[0-9]{5}"
+			},
 			"answer": {
+				"type": "string",
+				"required": false,
+				"pattern": "[0-9]{1}"
+			},
+			"answeroptions": {
+				"type": "string",
+				"required": false
+			},
+			"answerforce": {
 				"type": "string",
 				"required": false,
 				"pattern": "[0-9]{1}"
@@ -165,10 +182,26 @@
 				"helper": "__h_expire__"
 			}
 			,
+			"confirm": {
+				"label": "__l_confirm__",
+				"helper": "__h_confirm__"
+			}
+			,
 			"answer": {
 				"label": "__l_answer__",
 				"helper": "__h_answer__"
 			}
+			,
+			"answeroptions": {
+				"label": "__l_answeroptions__",
+				"helper": "__h_answeroptions__"
+			}
+			,
+			"answerforce": {
+				"label": "__l_answerforce__",
+				"helper": "__h_answerforce__"
+			}
+			
 		}
 	}
 }
