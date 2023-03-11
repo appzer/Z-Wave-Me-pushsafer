@@ -6,7 +6,8 @@ Pushsafer make it easy and safe to get push-notifications in real time on your
 - Android device
 - iOS device (incl. iPhone, iPad, iPod Touch)
 - Windows 10 Phone & Desktop
-- Browser (Chrome & Firefox)
+- Browser (Chrome, Firefox, Edge, Opera & Yandex)
+- Telegram
 
 ## Usage
 
