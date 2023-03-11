@@ -32,9 +32,9 @@
 	"l_confirm":"Confirm:",
 	"h_confirm":"optional number 10-10800: time in secondes, to send a message again until it is confirmed",
 	"l_answer":"Answer:",
-	"h_answer":"optional number 1 = Answer possible or 0 = Answer not possible"
+	"h_answer":"optional number 1 = Answer possible or 0 = Answer not possible",
 	"l_answeroptions":"Answer Options:",
-	"h_answeroptions":"optional specify predefined answer options divided by a pipe character, e.g. Yes|No|Maybe"
+	"h_answeroptions":"optional specify predefined answer options divided by a pipe character, e.g. Yes|No|Maybe",
 	"l_answerforce":"Answer Force:",
 	"h_answerforce":"optional number 1 = Force an Answer or 0 = do notforce an Answer"
 }
